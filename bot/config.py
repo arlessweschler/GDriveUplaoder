@@ -1,10 +1,10 @@
 class config:
-    BOT_TOKEN = "1478529605:AAGp5Vn_RDLPM7hlw9CQ2ZfzxPBRGok77jg"
-    APP_ID = "2710778"
-    API_HASH = "a3e5503b94be442badc605ca7905c83c"
-    DATABASE_URL = "postgres://rfhajifalhpedx:9b8f9b2e7b33e60f7865b5d50bb14c1b84c262d72239f6b38c96c8f8081a9dce@ec2-52-71-107-99.compute-1.amazonaws.com:5432/d2edc59tdg423"
+    BOT_TOKEN = "1551661554:AAHusRxZcMS7NhK0_OO_Z2_l3qix2XDx2I0"
+    APP_ID = "2613209"
+    API_HASH = "53da8fc68ba94ec95d210e924f1c9fb8"
+    DATABASE_URL = "postgresql://postgres:ke6TZI15VyJ9T7BWun8yVGKXy4e8ydD1@postgresql/gdrivebot"
     SUDO_USERS = "1252058587" # Sepearted by space.
-    SUPPORT_CHAT_LINK = "https://t.me/Art_of_tech"
+    SUPPORT_CHAT_LINK = "https://t.me/BotZ_Zone"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
 
