@@ -49,7 +49,7 @@ async def _auth(client, message):
     except Exception as e:
       await message.reply_text(f"**ERROR:** ```{e}```", quote=True)
 
-@Client.on_message(filters.private & filters.incoming & filters.command(BotCommands.Revoke) & CustomFilters.auth_users)
+@Client.on_message(filters.private & filters.incoming & filters.command(BotCommands.Revoke))
 def _revoke(client, message):
   user_id = message.from_user.id
   try:
